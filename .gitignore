@@ -19,5 +19,20 @@
 *.tar.gz
 *.rar
 
+
+*.idea/
+*target/
+*.DS_Store
+*AcceptanceTestProject.iml
+*src/.DS_Store
+*src/test/.DS_Store
+*src/test/java/.DS_Store
+*src/test/java/utils/.DS_Store
+*src/test/java/utils/drivers/.DS_Store
+*src/test/resources/.DS_Store
+*target/cucumber/report.js
+*target/test-classes/features/TestFeature.feature
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
