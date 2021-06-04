@@ -11,10 +11,10 @@ public class Driver {
     public static WebDriver getDriver(){
 
         if(SystemUtils.IS_OS_MAC) {
-            String driverPath = "src/test/java/utils/drivers/chromedriver_mac_83";
+            String driverPath = "src/test/java/utils/drivers/chromedriver_mac_91";
             System.setProperty("webdriver.chrome.driver", driverPath);
         } else if(SystemUtils.IS_OS_WINDOWS) {
-            String driverPath = "src/test/java/utils/drivers/chromedriver_windows_83.exe";
+            String driverPath = "src/test/java/utils/drivers/chromedriver_windows_91.exe";
             System.setProperty("webdriver.chrome.driver", driverPath);
         } else if(SystemUtils.IS_OS_LINUX) {
             String driverPath = "src/test/java/utils/drivers/chromedriver_linux_245";
