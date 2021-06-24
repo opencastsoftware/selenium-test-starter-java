@@ -23,14 +23,16 @@ mvn clean install
 mvn test
 
 ```
+# Create and account on the BBC
+```
+Please create an account on the BBC website, you will need the username and password to execute the steps during the pair programming exercise.
 
+```
 
 # During your phone interview you will be asked to create test cases for the following Acceptance criteria:
 ```
 I navigate to the BBC website
 I can log in with the following
-Username: kerry-anne.kane@opencastsoftware.com
-Password: mypassword1
 
 I am logged in 
 I can navigate to the weather page
