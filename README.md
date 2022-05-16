@@ -21,15 +21,15 @@ mvn clean install
 # Run application through the terminal
 ```
 mvn test
-
 ```
 # Create and account on the BBC
 ```
 Please create an account on the BBC website, you will need the username and password to execute the steps during the pair programming exercise.
-
 ```
 
 # During your phone interview you will be asked to create test cases for the following Acceptance criteria:
+***Do not complete these scenarios before the interview, this is a paired programming exercise.***
+
 ```
 I navigate to the BBC website
 I can log in with the following
