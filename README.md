@@ -27,7 +27,7 @@ mvn test
 Please create an account on the BBC website, you will need the username and password to execute the steps during the pair programming exercise.
 ```
 
-# During your phone interview you will be asked to create test cases for the following Acceptance criteria:
+# During your interview you will be asked to create test cases for the following Acceptance criteria:
 ***Do not complete these scenarios before the interview, this is a paired programming exercise.***
 
 ```
