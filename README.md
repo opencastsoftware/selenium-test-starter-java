@@ -22,24 +22,13 @@ mvn clean install
 ```
 mvn test
 ```
-# Create and account on the BBC
-```
-Please create an account on the BBC website, you will need the username and password to execute the steps during the pair programming exercise.
-```
 
-# During your interview you will be asked to create test cases for the following Acceptance criteria:
+# During your interview you will be asked to action the following:
 ***Do not complete these scenarios before the interview, this is a paired programming exercise.***
 
 ```
-I navigate to the BBC website
-I can log in with the following
+Scenario 1 - Create a set of tests
+Scenario 2 - Debug a test through your chosen IDE
 
-I am logged in 
-I can navigate to the weather page
-I can search for the weather in Newcastle-upon-tyne
-
-I am logged in 
-I have searched for the weather in Newcastle-upon-tyne
-I can add to my locations
 ```
 
