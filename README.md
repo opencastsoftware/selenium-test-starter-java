@@ -24,7 +24,7 @@ mvn test
 ```
 
 # During your interview you will be asked to action the following:
-***Do not complete these scenarios before the interview, this is a paired programming exercise.***
+***Do not complete these before the interview, this is a paired programming exercise.***
 
 ```
 Scenario 1 - Create a set of tests

@@ -15,6 +15,7 @@ public class BasePage extends Driver {
 
     public void assertPageTitle(String pageTitle) {
         String currentTitle = driver.getTitle();
+        System.out.println("current title:" + currentTitle );
         Assert.assertTrue(currentTitle.contains(pageTitle));
     }
 
@@ -22,6 +23,8 @@ public class BasePage extends Driver {
         driver.findElement(By.linkText(link)).click();
     }
 
-
+    public void clickButton(String xpath) {
+        driver.findElement(By.xpath(xpath)).click();
+    }
 
 }
