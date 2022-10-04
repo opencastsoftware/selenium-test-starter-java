@@ -41,12 +41,14 @@ public class CommonStepdefs extends HomepagePage {
         driver.findElement(By.linkText("GREGGS PLC")).click();
     }
 
+//    dont delete
     @Then("I validate that the details are displayed")
     public void iValidateThatTheDetailsAreDisplayed(DataTable dataTable) {
         List<List<String>> data = dataTable.asLists(String.class);
         String CompanyStatusExpected = data.get(1).get(1);
-        String CompanyTypeExpected = data.get(2).get(1);
-        String IncorporatedExpected = data.get(2).get(1);
+        String CompanyTypeExpected = data.get(1).get(1);
+        String IncorporatedExpected = data.get(3).get(1);
+
 
         System.out.println("CompanyStatus " + CompanyStatusExpected);
         System.out.println("CompanyType " + CompanyTypeExpected);
