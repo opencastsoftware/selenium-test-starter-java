@@ -27,8 +27,9 @@ mvn test
 ***Do not complete these before the interview, this is a paired programming exercise.***
 
 ```
-Scenario 1 - Create a set of tests
-Scenario 2 - Debug a test through your chosen IDE
+Scenario 1 - Complete the steps for the tests in TestFeature1.feature
+Scenario 2 - Debug the test through your chosen IDE in TestFeature2.feature
+Scenario 3 - Create a feature and write tests in TestFeature3.feature
 
 ```
 
