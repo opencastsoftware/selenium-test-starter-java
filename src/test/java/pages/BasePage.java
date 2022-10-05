@@ -7,8 +7,6 @@ import utils.Driver;
 
 public class BasePage extends Driver {
 
-    protected WebDriver driver = Driver.getDriver();
-
     public void getUrl(final String url) {
         driver.navigate().to(url);
     }

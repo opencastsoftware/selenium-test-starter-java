@@ -6,7 +6,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Driver {
 
-    protected static WebDriver driver;
+    protected static WebDriver driver = getDriver();
 
     public static WebDriver getDriver() {
 
