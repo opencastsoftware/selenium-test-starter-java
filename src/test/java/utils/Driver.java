@@ -8,7 +8,7 @@ public class Driver {
 
     protected static WebDriver driver = getDriver();
 
-    public static WebDriver getDriver() {
+    protected static WebDriver getDriver() {
 
         WebDriverManager.chromedriver().setup();
 

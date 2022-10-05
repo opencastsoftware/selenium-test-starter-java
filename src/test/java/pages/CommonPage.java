@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.Driver;
 
-public class BasePage extends Driver {
+public class CommonPage extends Driver {
 
     public void getUrl(final String url) {
         driver.navigate().to(url);

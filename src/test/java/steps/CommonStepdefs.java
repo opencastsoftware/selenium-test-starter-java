@@ -1,17 +1,14 @@
 package steps;
 
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.DataTableType;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import pages.HomepagePage;
+import pages.CommonPage;
 
-import java.lang.reflect.Type;
 import java.util.List;
-import java.util.Map;
 
-public class CommonStepdefs extends HomepagePage {
+public class CommonStepdefs extends CommonPage {
 
     @Given("I go to url {string}")
     public void i_go_to_url(String url) {
