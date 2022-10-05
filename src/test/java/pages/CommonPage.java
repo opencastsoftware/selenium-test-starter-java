@@ -7,22 +7,4 @@ import utils.Driver;
 
 public class CommonPage extends Driver {
 
-    public void getUrl(final String url) {
-        driver.navigate().to(url);
-    }
-
-    public void assertPageTitle(String pageTitle) {
-        String currentTitle = driver.getTitle();
-        System.out.println("current title:" + currentTitle );
-        Assert.assertTrue(currentTitle.contains(pageTitle));
-    }
-
-    public void clickLink(String link) {
-        driver.findElement(By.linkText(link)).click();
-    }
-
-    public void clickButton(String xpath) {
-        driver.findElement(By.xpath(xpath)).click();
-    }
-
 }

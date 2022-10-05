@@ -10,35 +10,8 @@ import java.util.List;
 
 public class CommonStepdefs extends CommonPage {
 
-    @Given("I go to url {string}")
-    public void i_go_to_url(String url) {
-        getUrl(url);
-    }
 
-
-    @And("I select the {string} link")
-    public void iSelectTheLink(String link) {
-        clickLink(link);
-    }
-
-    @Then("I should be on the {string} page")
-    public void iShouldBeOnThePage(String pageTitle) {
-        assertPageTitle(pageTitle);
-    }
-
-    @Then("I click the Start now button")
-    public void iClickTheButton() {
-        clickButton("//*[@id=\"get-started\"]/a");
-    }
-
-    @When("I search for company {string} and view the company details")
-    public void iSearchForCompany(String companyName) {
-        driver.findElement(By.id("site-search-text")).sendKeys(companyName);
-        driver.findElement(By.id("search-submit")).click();
-        driver.findElement(By.linkText("GREGGS PLC")).click();
-    }
-
-//    dont delete
+//    don't delete
     @Then("I validate that the details are displayed")
     public void iValidateThatTheDetailsAreDisplayed(DataTable dataTable) {
         List<List<String>> data = dataTable.asLists(String.class);
