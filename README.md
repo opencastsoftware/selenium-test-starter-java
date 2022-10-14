@@ -2,8 +2,9 @@
 
 # Requirements for running this repository:
 
-1. Maven is required
-2. Chrome driver is required
+Java,
+Maven, 
+Cucumber.
 
 
 # Run maven
@@ -14,7 +15,8 @@ mvn clean install
 # Run application using the runner
 ```
 1. Add Junit configuration
-2. Add class RunTest
+2. Add class RunTest1
+3. Add class RunTest2
 ```
 
 
@@ -24,7 +26,7 @@ mvn test
 ```
 
 # During your interview you will be asked to action the following:
-***Do not complete these before the interview, this is a paired programming exercise.***
+***Do not complete these before the interview, we will guide you through these.***
 
 ```
 Scenario 1 - Complete the steps for the tests in TestFeature1.feature
