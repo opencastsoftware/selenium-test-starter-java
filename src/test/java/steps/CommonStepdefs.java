@@ -11,7 +11,12 @@ import java.util.List;
 public class CommonStepdefs extends CommonPage {
 
 
-//    don't delete
+    @Given("I go to url {string}")
+    public static void iGoToUrl(String url) {
+        getUrl(url);
+    }
+
+
     @Then("I validate that the details are displayed")
     public void iValidateThatTheDetailsAreDisplayed(DataTable dataTable) {
         List<List<String>> data = dataTable.asLists(String.class);
@@ -31,4 +36,6 @@ public class CommonStepdefs extends CommonPage {
         Assert.assertEquals(CompanyTypeExpected, CompanyTypeActual);
         Assert.assertEquals(IncorporatedExpected, IncorporatedActual);
     }
+
+
 }
