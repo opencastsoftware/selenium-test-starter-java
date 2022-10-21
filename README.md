@@ -2,8 +2,9 @@
 
 # Requirements for running this repository:
 
-1. Maven is required
-2. Chrome driver is required
+Java,
+Maven, 
+Cucumber.
 
 
 # Run maven
@@ -14,7 +15,8 @@ mvn clean install
 # Run application using the runner
 ```
 1. Add Junit configuration
-2. Add class RunTest
+2. Add class RunTest1
+3. Add class RunTest2
 ```
 
 
@@ -22,24 +24,14 @@ mvn clean install
 ```
 mvn test
 ```
-# Create and account on the BBC
-```
-Please create an account on the BBC website, you will need the username and password to execute the steps during the pair programming exercise.
-```
 
-# During your interview you will be asked to create test cases for the following Acceptance criteria:
-***Do not complete these scenarios before the interview, this is a paired programming exercise.***
+# During your interview you will be asked to action the following:
+***Do not complete these before the interview, we will guide you through these.***
 
 ```
-I navigate to the BBC website
-I can log in with the following
+Scenario 1 - Complete the steps for the tests in TestFeature1.feature
+Scenario 2 - Debug the test through your chosen IDE in TestFeature2.feature
+Scenario 3 - Create a feature and write tests in TestFeature3.feature
 
-I am logged in 
-I can navigate to the weather page
-I can search for the weather in Newcastle-upon-tyne
-
-I am logged in 
-I have searched for the weather in Newcastle-upon-tyne
-I can add to my locations
 ```
 

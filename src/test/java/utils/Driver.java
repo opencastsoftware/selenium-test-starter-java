@@ -6,9 +6,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Driver {
 
-    private static WebDriver driver;
+    protected static WebDriver driver = getDriver();
 
-    public static WebDriver getDriver() {
+    protected static WebDriver getDriver() {
 
         WebDriverManager.chromedriver().setup();
 
