@@ -1,5 +1,7 @@
 # Compiled class file
 *.class
+*.classpath
+
 
 # Log file
 *.log
@@ -21,6 +23,10 @@
 
 
 *.idea/
+*.project
+*.settings/org.eclipse.core.resources.prefs
+*.settings/org.eclipse.jdt.core.prefs
+*.settings/org.eclipse.m2e.core.prefs
 *target/
 *.DS_Store
 *AcceptanceTestProject.iml
