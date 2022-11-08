@@ -1,4 +1,4 @@
-# Acceptance test Cucumber/Selenium/Java project
+# Opencast Software interview pairing session for Acceptance test with Cucumber/Selenium/Java 
 
 # Requirements for running this repository:
 
