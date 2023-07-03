@@ -7,13 +7,11 @@
     <version>0.0.1</version>
     <packaging>jar</packaging>
     <name>Selenium/Java project</name>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>io.cucumber</groupId>
