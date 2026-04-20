@@ -8,7 +8,7 @@ Feature: A user validates company details are correct
 #    And I select the 'Find company information' link
 #    Then I should be on the 'Get information about a company' page
 #    And I click the Start now button
-#    Then I should be on the 'Find and update company information' page
+#    Then I should be on the 'Search the register - Find and update company information' page
 #    When I search for company 'GREGGS PLC' and view the company details
 #    Then I validate that the details are displayed
 #      | Input           | Value                  |
